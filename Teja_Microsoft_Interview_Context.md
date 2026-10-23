@@ -134,6 +134,20 @@ This file holds everything needed to help Teja prepare for his Microsoft Cloud S
 ### Preferred
 • Curiosity about AI, SQL, Power BI and Python basics, cloud fundamentals (Azure certs or hands-on), building or automating simple solutions, modern apps and APIs, security and governance awareness, problem solving, customer focus, clear communication, growth mindset.
 
+### Microsoft's official hiring guidance
+Source: careers.microsoft.com "How we hire" and "Interview tips" pages (read via search results; the session network blocked the pages themselves, so check exact wording on the site).
+• Process: after resume review, some teams run a brief screening conversation. Then most loops are 2 to 4 conversations with teammates and cross-functional colleagues, up to an hour each, by phone, Microsoft Teams or in person. The recruiter shares the timeline for next steps.
+• Structured interviews: consistent questions scored against the role's requirements.
+• Answer format: STAR(R), meaning Situation, Task, Action, Result, Reflection.
+• Prepare examples of applying feedback, working with others, and adapting your approach.
+• Values assessed: respect, integrity, accountability, growth mindset, inclusion, One Microsoft (collaborate across differences, prioritise the customer and team).
+• Show how your skills transfer to the role.
+• AI rule: AI is fine for preparation, but candidates must show their own skills in assessments and interviews without outside help unless explicitly allowed.
+• Technical rounds: ask clarifying questions and state assumptions before designing.
+• Virtual: install Teams, test camera, mic and internet, charge the device, have the dial-in as a fallback.
+• After interviews: send the recruiter a thank-you note, ask about the timeline.
+• Gap: no "applied feedback" story yet. Need a real one.
+
 ### Microsoft culture keywords
 • Growth mindset ("learn-it-all, not know-it-all"), customer obsessed, One Microsoft, diversity and inclusion, making a difference.
 

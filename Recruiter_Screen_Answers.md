@@ -13,6 +13,29 @@ Call: Monday 26 October 2026, 8:00 PM - 8:15 PM AEDT
 - Every answer should land on **customers or outcomes**, not just on what you get. That is the main theme of the JD.
 - Anything in **[brackets]** is a fact to confirm before Monday. Only say what is true.
 
+### What Microsoft's own careers site says
+
+From Microsoft's [How we hire](https://careers.microsoft.com/v2/global/en/hiring-tips.html) and [Interview tips](https://careers.microsoft.com/v2/global/en/hiring-tips/interview-tips.html) pages (read via search results, not the full pages):
+
+- **STAR(R) is Microsoft's own recommended format:** Situation, Task, Action, Result, Reflection. So the reflection line at the end of each story is expected, not optional.
+- **Prepare examples of:** applying feedback, working with others, and adapting your approach. Questions 16 and 17 below cover the first two.
+- **Values they assess:** respect, integrity, accountability, growth mindset, inclusion, and "One Microsoft" (collaborating across differences, putting the customer and team first).
+- **Structured interviews:** every candidate gets the same kind of questions, scored against the role's requirements. That's why mapping your answers to the JD matters.
+- **AI rule:** you can use AI to prepare, but in assessments and interviews you must show your own skills without outside help unless they say otherwise. No notes generated live, no AI on the call.
+- **Show how your skills transfer.** That is exactly what the AWS to Azure answer does.
+
+### Which story proves which value
+
+| Value | Story |
+|---|---|
+| Customer first, One Microsoft | Customer pipeline (Q4): owned it across three teams |
+| Integrity | Data leakage catch (Q11). Being upfront about AI help on Halo Voice (Q10) |
+| Accountability | Customer pipeline (Q4): didn't pass it on |
+| Growth mindset | Learning AWS on the job (Q3). LiveKit rebuild (Q10). Data leakage (Q11) |
+| Adapting your approach | LiveKit rebuild (Q10). Music app comparison (Q15) |
+| Applying feedback | Q16 [needs your story] |
+| Working with others | Q17 |
+
 ### Time budget for a 15-minute call
 
 | Answer | Target |
@@ -322,6 +345,57 @@ Maps to the JD's "proof of concept" and "ROI".
 
 > "In a cloud project at RMIT, instead of guessing how to deploy our backend, we deployed it three ways: Lambda with API Gateway, Flask on EC2, and Docker on ECS Fargate. We compared cost, scaling and effort, and I recommended serverless. That's how I like to make decisions: try small, compare, then commit."
 
+### 16. "Tell me about a time you received feedback and what you did with it."
+
+Microsoft's interview tips name this directly, and you don't have a story for it yet.
+
+**What makes a good one**
+- Real feedback from a manager, peer, customer or lecturer, ideally a bit uncomfortable
+- What you actually changed because of it
+- Something that shows the change stuck
+
+**Possible sources (pick one that's true):** a code or KB article review at AWS, feedback from DNEG artists on your tools, team or lecturer feedback on the capstone, or feedback at Focus Bear.
+
+**STAR plus Reflection template**
+- **Situation:** [where you were and who gave the feedback]
+- **Task:** [what you were working on]
+- **Action:** [what the feedback was, and what you changed]
+- **Result:** [what got better]
+- **Reflection:** [what you do differently now]
+
+Give me the real story and I'll tighten it.
+
+### 17. "Tell me about a time you worked with others or across teams."
+
+Maps to "One Microsoft" and the JD's "collaborate across teams".
+
+**Option A: AWS cross-team work (strongest for this role)**
+
+> "At AWS I built customer data pipelines together with Solutions Architects, across AWS and Azure, moving data from S3 through Glue and Athena into Redshift for reporting. On high-severity escalations I worked alongside Technical Account Managers and service teams, and I kept clear running notes so anyone picking it up next knew exactly where things stood. My part was the hands-on troubleshooting, and theirs was the customer relationship and the architecture, so it only worked if we kept each other in the loop."
+
+**Option B: RMIT capstone**
+
+> "In my capstone I'm the cloud and deployment lead in a five-person team, building an LLM-based tool for an education client. I own hosting, deployment and the workflow automation, so I'm constantly working with the people building the features to make sure what they build actually deploys and runs."
+
+Add a reflection that's true for you, for example: "Collaboration works best when people know what you own and can see where things are."
+
+---
+
+## After the call: thank-you message
+
+Microsoft's interview tips suggest sending the recruiter a thank-you. Send it the same evening or the next morning, on LinkedIn or by email. Keep it short.
+
+> Hi Khow,
+>
+> Thanks for the chat this evening. I enjoyed hearing more about the Cloud Solution Architect (Early in Profession) role, especially [one thing she mentioned, for example the team or solution area].
+>
+> I'm really keen to move forward, and I'm available to start from 16 November. Let me know if you need anything else from me.
+>
+> Kind regards,
+> Teja Gunnam
+
+Swap in something specific she said. That one line is what makes it sound like you and not a template.
+
 ---
 
 ## Things you must NOT claim
@@ -341,8 +415,12 @@ Maps to the JD's "proof of concept" and "ROI".
 - [ ] Confirm 485 length: 2 or 3 years
 - [ ] Confirm full-time from 16 November is allowed on your student visa
 - [ ] Fill in your real reason for leaving AWS (question 9)
+- [ ] Prepare a real "applied feedback" story (question 16)
+- [ ] Check whether the call is by phone or Microsoft Teams. If Teams: install it, test camera, mic and internet, and have the dial-in number ready as a backup
 - [ ] Optional: start a Microsoft Learn Power BI module
 - [ ] Check the spelling of the recruiter's name (Khow) on LinkedIn
 - [ ] Practise questions 1, 2 and 4 out loud with a timer
 - [ ] Do one practice run Monday morning, not after the exam
 - [ ] Phone charged, quiet room, CV and JD open
+- [ ] No AI tools during the call itself
+- [ ] After the call: send the thank-you message
