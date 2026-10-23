@@ -1,6 +1,6 @@
 # Teja Gunnam: Context for Microsoft Interview Prep
 
-Last updated: 23 October 2026
+Last updated: 23 October 2026 (after first mock recruiter screen)
 
 This file holds everything needed to help Teja prepare for his Microsoft Cloud Solution Architect (Early in Profession) interview process. Read it fully before helping.
 
@@ -28,8 +28,9 @@ This file holds everything needed to help Teja prepare for his Microsoft Cloud S
 • Study: Final semester, Master of Artificial Intelligence, RMIT University. Graduating December 2026. Final exams in late October 2026 (one on Monday 26 Oct afternoon).
 • Undergrad: Bachelor of Technology, Electronics and Communication Engineering, Bennett University (2021)
 • Certification: AWS Certified Solutions Architect - Associate
-• Visa: Student visa (subclass 500) now, with limited work hours during study. Will apply for the Temporary Graduate visa (subclass 485) after graduating in December 2026, which gives full work rights (Bridging Visa A while it is processed). Plan is to apply for PR after that.
-• Available to start full time: January 2027
+• Visa: Student visa (subclass 500) now, with limited work hours during study. Will apply for the Temporary Graduate visa (subclass 485) as soon as exams finish, which gives full work rights (Bridging Visa A with full work rights while it is processed). Plan is to apply for PR after that.
+• 485 length: standard Post-Higher Education Work stream for a coursework Master's is 2 years. Some nationalities get longer. CONFIRM 2 or 3 years on Home Affairs before saying a number.
+• Available to start full time: 16 November 2026 (fits Microsoft's November to December target start). CONFIRM this matches student visa conditions after the course ends.
 • Long-term goal: AI engineering career, and eventually building my own AI company.
 
 ---
@@ -105,6 +106,13 @@ This file holds everything needed to help Teja prepare for his Microsoft Cloud S
 
 • Title: Cloud Solution Architect (Early in Profession)
 • Link: https://apply.careers.microsoft.com/careers/job/1970393556997801?domain=microsoft.com&hl=en
+• Full JD saved in this repo: "Job Description - CSA Early in Profession.pdf"
+• Job number 200055607. Posted 24 Sep 2026. Profession: Customer Success. Individual contributor, full time.
+• Locations: Sydney, Melbourne, Brisbane, Canberra or Perth. 3 days a week in office. Travel under 25%.
+• Target start date: November to December 2026. Applications reviewed on a rolling basis, process expected to move quickly.
+• JD wants 2 to 4 years of experience. Mine: about 3 years (DNEG 1 year, AWS 2 years).
+• JD phrases to hit: "translate technical concepts into customer outcomes", "customer and business outcome mindset", "curiosity about AI", "growth mindset and learning agility", "build or automate simple solutions", "security, resilience and AI", proof of concept / MVP / rapid prototypes to show ROI, Copilot and AI scenarios.
+• Power BI is a named skill I do not have. Honest framing: dashboards in QuickSight and Grafana, SQL and Python for data work, Power BI is new to me but the same idea.
 • Applied through the Microsoft careers portal and was shortlisted for a screening call.
 • Program: designed to work alongside experienced architects and technical specialists.
 
@@ -144,19 +152,29 @@ This file holds everything needed to help Teja prepare for his Microsoft Cloud S
 ### Plan for a 15-minute call
 • Tell me about yourself: 45-60 seconds.
 • Other answers: 30-60 seconds each.
-• One question at the end: "What are the next steps in the process?"
+• Questions at the end (2 to 3): which solution area / team, next steps and timeline, any advice for the next round.
+
+### Polished answers
+Full polished answers from the first mock are in "Recruiter_Screen_Answers.md" in this repo. Short version below.
 
 ### Answers drafted so far
-• Tell me about yourself: "I'm finishing my Master of AI at RMIT in December. Before that, I spent two years at AWS as a Cloud Support Engineer, working with enterprise customers on production issues and building data pipelines alongside Solutions Architects. I'm AWS certified, and I'm now an ML Engineer Intern at Focus Bear working on AI-based distraction blocking. I've also built and launched my own AI voice receptionist. What I enjoyed most at AWS was working directly with customers on their architecture, and that's why the Cloud Solution Architect role appeals to me."
-• Why Microsoft / why CSA: the CSA role is the customer-facing architecture work I enjoyed most at AWS, now with AI at the centre. Microsoft is where enterprise customers are adopting AI (Azure OpenAI, Copilot). The Early in Profession program lets me learn from experienced architects.
-• AWS to Azure: cloud concepts carry across (networking, identity, security, cost, resilience). I map AWS to Azure already: VPC to VNet, IAM to Entra ID, Lambda to Azure Functions, Redshift to Synapse. I also worked on Azure data pipelines at AWS. I picked up AWS on the job and can do the same with Azure. (Suggested: start the free Microsoft Learn AZ-900 path before the call so I can honestly say I've started it.)
-• Customer story: the cross-account VPC pipeline fix (STAR format).
+• Tell me about yourself (4 beats, about 50 seconds): Master's at RMIT finishing December. About three years of work: DNEG Python automation, then two years at AWS working directly with enterprise customers and building data pipelines with Solutions Architects. AWS certified. Now ML engineering intern at Focus Bear and built my own live AI voice receptionist. Enjoyed the customer side at AWS most, which is why CSA appeals. Do NOT say "entry point" or "a good team".
+• Why Microsoft / why CSA (3 beats): liked the customer side at AWS and CSA is that as the whole job. Microsoft is where enterprise AI adoption is happening (Azure OpenAI, Copilot), which fits my AI plus cloud background. The Early in Profession program means learning from experienced architects with real customers. Avoid flattery like "the most intelligent minds".
+• AWS to Azure: most hands-on work is AWS, but not starting from zero. Worked on customer pipelines across AWS and Azure at AWS. Core ideas carry across: VPC to VNet, IAM to Entra ID, Lambda to Azure Functions. Real differences in identity and governance. AZ-900 path on Microsoft Learn (CONFIRM: started or finished, say only what is true). Learned AWS on the job and got certified. Do not say "only the names differ".
+• Customer story (STAR plus reflection, about 70 seconds): cross-account pipeline. S3 data encrypted with KMS in one account, Redshift in a private VPC in another account, Access Denied errors. Got on a call, sent a written summary, owned it across IAM, S3 and networking even though my team only covered analytics, found the cross-account IAM role and network rules were misconfigured, stayed on a call while they applied the fix, pipeline unblocked. Reflection: customers don't care which team owns a problem. Technical notes: a private VPC uses an S3 gateway VPC endpoint or NAT, NOT an internet gateway. Cross-account SSE-KMS needs bucket policy, KMS key policy (kms:Decrypt) and the IAM role, with a customer managed key. Only mention KMS or the endpoint if that was really part of the fix.
 • Explaining technical things simply: plain-language updates during high-severity escalations, knowledge-base articles, internal training.
 • AI: Halo Voice live in production, and the LiveKit rebuild showing I design for what the customer actually needs.
 • Mistake / learning: the data leakage catch. Use "growth mindset" naturally.
-• Work rights: "I'm on a Student visa now and will apply for the Temporary Graduate visa (485) after graduating in December, which gives full work rights." Answer honestly if asked about future sponsorship.
-• Start date: January 2027.
-• Salary: let them name the band first. "I'm open, and I'd like to understand the full package and band for this level first." No reliable figure for Microsoft Australia early-career bands yet.
+• Start date and work rights (lead with the date): "I can start full-time from 16 November, so that lines up with your intake. I'm on a student visa now, and once exams finish I'll apply for the 485, which gives full work rights for [2 or 3] years, with a bridging visa with full work rights while it's processed. Longer term I'm planning to stay in Australia and go for PR." If asked about sponsorship: "Not for the next few years. The 485 gives me full work rights, and I'm working toward PR."
+• Salary: ask for their band and the full package first (base, super, bonus, stock). Fallback only if pushed: "around $105 to $115k base plus super, but flexible depending on the full package." Always say "plus super". Never quote total comp.
+• Salary research: Glassdoor says about $100-110k base for CSA with 1-3 years. Levels.fyi Microsoft Solution Architect I in Australia, base only: fresh hires $104k (0 yrs) and $111k (1 yr), internal people $109k to $119k, bonus roughly $15-27k plus some stock on top. Small, older sample.
+• Other interviews: "Yes, early stages with a couple of companies for Cloud Engineer and Cloud Ops roles. But this one is my first choice because of the customer-facing side. If anything moves quickly elsewhere, I'll let you know." Don't name companies unless asked. Don't overstate.
+
+### Mock 1 verdict (23 Oct)
+• Likely to pass the screen. Background fits the JD. Sound honest and natural.
+• Fix 1: lead with the point and land every answer on customers or outcomes, not on what I get.
+• Fix 2: get facts exact (Azure course status, 485 length, 16 Nov start, salary range).
+• Fix 3: practise out loud with a timer from beats, not a script. Intro about 50 seconds, customer story about 70 seconds.
 
 ---
 
