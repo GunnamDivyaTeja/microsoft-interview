@@ -153,6 +153,20 @@ Source: careers.microsoft.com "How we hire" and "Interview tips" pages (read via
 
 ---
 
+### Later rounds: what recent candidates say
+• Interview Exp 2 (Data and AI team, LinkedIn post by a CSA who joined about 3 months ago, saved as "Interview Exp 2 - Data and AI.pdf"):
+  • Panel of 3 interviewers covering: AI and technical depth (AI concepts, real-world applications, problem solving with emerging tech), cloud concepts (architecture thinking, scalability and reliability scenarios), a resume deep-dive (every project and skill probed, "why" and "how"), scenario questions (structure a solution under ambiguity), behavioural STAR (teamwork, conflict resolution, ownership, failure and success), soft skills (explain complex ideas simply).
+  • No DSA / LeetCode. Focus is AI, cloud, solution design and real customer scenarios.
+  • For scenarios: analyse, ask clarifying questions, then arrive at a solution. There is no single right answer.
+  • He invited questions in the comments, so he's a good person to message on LinkedIn.
+• Interview Exp 1 (Medium, ex-AWS CSA in Brisbane, 2022): recruiter screen, then hiring manager (felt like a chat), then technical with a senior CSA (high-level, not Azure trivia, aptitude to learn), then a panel with the director (behavioural, career switch). Asked lots of questions in every round.
+• Glassdoor (Sep and Oct 2026): Principal Cloud Engineer (45 min), Principal CSA (1 hour), Director (1 hour). They ask about whatever cloud you know and translate it to Azure. Culture fit and "learn it all" mindset weigh heavily.
+
+### Gaps to prepare for later rounds
+• Behavioural stories still missing: conflict resolution, a real failure, applying feedback. Need real ones.
+• Resume deep-dive: be ready to explain "why" and "how" for every CV line. Risky lines: "Microsoft Azure" in skills (only the AWS pipeline work), "cut compute spend" (know an example, no made-up numbers), Terraform (debugging customer deployments, not building from scratch), the capstone stack choices, Focus Bear (agree what can be said).
+• AI depth: know concepts well even where there is no project: RAG, embeddings, prompting vs fine-tuning, evaluation, responsible AI, Azure OpenAI and Azure AI Foundry, Copilot. Explain them; never claim a RAG project.
+
 ## 7. The screening call
 
 • When: Monday 26 October 2026, 8:00 PM - 8:15 PM Sydney/Melbourne time (AEDT)
